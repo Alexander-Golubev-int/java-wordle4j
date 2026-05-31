@@ -1,0 +1,162 @@
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:107)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:35)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:38)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:107)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:35)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:38)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:107)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:35)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:38)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:107)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:35)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:43)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:107)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:35)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:43)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:32)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
+================Ошибка====================
+exception.WordNotFoundInDictionary: Все подходящие слова уже были предложены.
+	at ru.yandex.practicum.WordleDictionary.getHelp(WordleDictionary.java:102)
+	at ru.yandex.practicum.WordleGame.checkAnswer(WordleGame.java:26)
+	at ru.yandex.practicum.Wordle.main(Wordle.java:26)
+================Конец======================
