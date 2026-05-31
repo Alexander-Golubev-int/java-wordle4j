@@ -1,5 +1,11 @@
 package Exception;
 
-public class GameException extends Exception {
+public class WordNotFoundInDictionary extends Exception {
 
+    public WordNotFoundInDictionary(String message) {
+        super(message);
+    }
+
+    public WordNotFoundInDictionary() {
+    }
 }

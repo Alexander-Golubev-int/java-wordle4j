@@ -1,11 +1,11 @@
 package Exception;
 
-public class InputFileException extends Exception{
-    public InputFileException() {
+public class InputFileLoaderException extends Exception{
+    public InputFileLoaderException() {
         super();
     }
 
-    public InputFileException(String message) {
+    public InputFileLoaderException(String message) {
         super(message);
     }
 }
