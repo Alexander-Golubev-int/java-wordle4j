@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.LinkedHashMap;
 
-import Exception.InputFileLoaderException;
-import Exception.WordNotFoundInDictionary;
+import exception.InputFileLoaderException;
+import exception.WordNotFoundInDictionary;
 
 public class WordleGame {
 

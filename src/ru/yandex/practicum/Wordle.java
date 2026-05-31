@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import Exception.InputFileLoaderException;
-import Exception.WordNotFoundInDictionary;
+import exception.InputFileLoaderException;
+import exception.WordNotFoundInDictionary;
 
 public class Wordle {
     private static final Scanner scanner = new Scanner(System.in);

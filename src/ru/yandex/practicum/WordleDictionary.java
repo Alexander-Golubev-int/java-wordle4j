@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import Exception.InputFileLoaderException;
-import Exception.WordNotFoundInDictionary;
+import exception.InputFileLoaderException;
+import exception.WordNotFoundInDictionary;
 
 public class WordleDictionary {
 

@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-import Exception.InputFileLoaderException;
+import exception.InputFileLoaderException;
 
 public class WordleDictionaryLoader {
 
