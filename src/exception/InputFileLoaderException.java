@@ -1,6 +1,6 @@
 package exception;
 
-public class InputFileLoaderException extends Exception{
+public class InputFileLoaderException extends Exception {
     public InputFileLoaderException() {
         super();
     }

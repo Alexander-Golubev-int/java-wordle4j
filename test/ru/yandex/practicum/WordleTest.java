@@ -4,11 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-import Exception.InputFileLoaderException;
-import Exception.WordNotFoundInDictionary;
+import exception.InputFileLoaderException;
+import exception.WordNotFoundInDictionary;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
