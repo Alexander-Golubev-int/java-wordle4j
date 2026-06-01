@@ -2,12 +2,14 @@ package ru.yandex.practicum;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
-
-import java.io.*;
-import java.util.*;
-
 import exception.InputFileLoaderException;
 import exception.WordNotFoundInDictionary;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -97,7 +99,7 @@ class WordleTest {
     }
 
     @Test
-    void testShouldNoGiveHelpUser() throws InputFileLoaderException, IOException{
+    void testShouldNoGiveHelpUser() throws InputFileLoaderException, IOException {
         //Проверка метода, что игроку не дается никакая подсказка и выводится ошибка
         Map<String, String> map = new LinkedHashMap<>();
         map.put("крыса", "-----");

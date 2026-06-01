@@ -12,15 +12,14 @@ import exception.WordNotFoundInDictionary;
 public class WordleDictionary {
 
     private final List<String> words;
-    private final Random random = new Random();
     private List<String> currentListWithHelp;
+    private int lastHistorySize = 0;
+    private final Random random = new Random();
+
 
     public void setLastHistorySize(int lastHistorySize) {
         this.lastHistorySize = lastHistorySize;
     }
-
-    private int lastHistorySize = 0;
-
 
     public WordleDictionary(String fileName) throws IOException, InputFileLoaderException {
         words = WordleDictionaryLoader.loadDictionaryWords(fileName);
@@ -39,38 +38,6 @@ public class WordleDictionary {
         } else {
             return comparisonOfWords(secretWord, answer);
         }
-    }
-
-    private String comparisonOfWords(String secretWord, String answer) {
-            char[] secretWordChars = secretWord.toCharArray();
-            char[] answerChars = answer.toCharArray();
-            char[] result = new char[5];
-
-            for (int i = 0; i < 5; i++) {
-                if (secretWordChars[i] == answerChars[i]) {
-                    result[i] = '+';
-                    secretWordChars[i] = '*';
-                    answerChars[i] = '#';
-                }
-            }
-            for (int i = 0; i < 5; i++) {
-                if (answerChars[i] == '#') {
-                    continue;
-                }
-                boolean found = false;
-                for (int j = 0; j < 5; j++) {
-                    if (secretWordChars[j] == answerChars[i]) {
-                        found = true;
-                        result[i] = '^';
-                        secretWordChars[j] = '*';
-                        break;
-                    }
-                }
-                if (!found) {
-                    result[i] = '-';
-                }
-            }
-            return new String(result);
     }
 
     public String getHelp(Map<String, String> helpForUser) throws WordNotFoundInDictionary {
@@ -117,6 +84,38 @@ public class WordleDictionary {
 
     public void setCurrentListWithHelp(List<String> currentListWithHelp) {
         this.currentListWithHelp = currentListWithHelp;
+    }
+
+    private String comparisonOfWords(String secretWord, String answer) {
+        char[] secretWordChars = secretWord.toCharArray();
+        char[] answerChars = answer.toCharArray();
+        char[] result = new char[5];
+
+        for (int i = 0; i < 5; i++) {
+            if (secretWordChars[i] == answerChars[i]) {
+                result[i] = '+';
+                secretWordChars[i] = '*';
+                answerChars[i] = '#';
+            }
+        }
+        for (int i = 0; i < 5; i++) {
+            if (answerChars[i] == '#') {
+                continue;
+            }
+            boolean found = false;
+            for (int j = 0; j < 5; j++) {
+                if (secretWordChars[j] == answerChars[i]) {
+                    found = true;
+                    result[i] = '^';
+                    secretWordChars[j] = '*';
+                    break;
+                }
+            }
+            if (!found) {
+                result[i] = '-';
+            }
+        }
+        return new String(result);
     }
 }
 
