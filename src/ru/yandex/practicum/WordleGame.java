@@ -1,23 +1,58 @@
 package ru.yandex.practicum;
 
-/*
-в этом классе хранится словарь и состояние игры
-    текущий шаг
-    всё что пользователь вводил
-    правильный ответ
+import java.io.IOException;
+import java.util.Map;
+import java.util.LinkedHashMap;
 
-в этом классе нужны методы, которые
-    проанализируют совпадение слова с ответом
-    предложат слово-подсказку с учётом всего, что вводил пользователь ранее
+import exception.InputFileLoaderException;
+import exception.WordNotFoundInDictionary;
 
-не забудьте про специальные типы исключений для игровых и неигровых ошибок
- */
 public class WordleGame {
 
+    private String secretWord;
     private String answer;
-
-    private int steps;
-
+    private Map<String, String> allAnswerFromUser;
+    private int steps = 0;
     private WordleDictionary dictionary;
 
+
+    public WordleGame(WordleDictionary dictionary) throws IOException, InputFileLoaderException {
+        this.dictionary = dictionary;
+        allAnswerFromUser = new LinkedHashMap<>();
+    }
+
+    public String checkAnswer(String answer) throws InputFileLoaderException, WordNotFoundInDictionary {
+        if (answer.isEmpty()) {
+            String helpWord = dictionary.getHelp(allAnswerFromUser);
+            return "Подсказка: " + helpWord;
+        } else {
+            this.answer = WordleDictionaryLoader.replacer(answer);
+            allAnswerFromUser.put(answer,dictionary.wordGuessingCheck(secretWord, answer));
+            return dictionary.wordGuessingCheck(secretWord, answer);
+        }
+    }
+
+    public int getSteps() {
+        return steps;
+    }
+
+    public String getSecretWord() {
+        return secretWord;
+    }
+
+    public void startGame() {
+        secretWord = dictionary.getRandomWord();
+    }
+
+    public boolean checkWord(String word) {
+        return dictionary.checkWordFromUser(word);
+    }
+
+    public Map<String, String> getAllAnswerFromUser() {
+        return allAnswerFromUser;
+    }
+
+    public void setSteps() {
+        steps++;
+    }
 }
